@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Upload Notes - BCA Notes Hub</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+  <div class="logo">
+      <img src="graduation-hat.png " class="logo-img" style="height: 40px; width: 40px; "/>
+
+      <span> NotesNest</span>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="notes.html">Notes</a>
+      <a href="upload.html">Upload</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <section class="upload-gallery">
+  
+    <h1 class="upload-h1">📤 Upload Your Notes</h1>
+  
+
+  <div class="upload-container" data-aos="fade-down">
+    <form id="uploadForm">
+      <label for="noteTitle">Note Title:</label>
+      <input type="text" id="noteTitle" placeholder="Enter subject or topic" required />
+
+      <label for="noteFile">Choose File (PDF/Text):</label>
+      <input type="file" id="noteFile" accept=".pdf,.txt" required />
+
+      <button type="submit">Upload Note</button>
+    </form>
+
+    <div class="uploaded-notes">
+      <h2>📚 Uploaded Notes</h2>
+      <ul id="notesList"></ul>
+    </div>
+  </div>
+  </section>
+
+  <footer class="site-footer">
+  <div class="footer-container">
+    
+    <div class="footer-brand">
+      <h2 data-aos="fade-right">NotesNest 📚</h2>
+      <p>Your study companion — organized, accessible, student-friendly.</p>
+
+      <p>📌 Shahabad,Markanda,Kurukshetra</p>
+      <p> 📞  ‪+91-7206729034‬</p>
+      <p> 📧 navjotkaur2345@gmail.com</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#welcome">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+        <li><a href="notes.html">Notes</a></li>
+        <li><a href="upload.html">Upload</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <h3>Connect With Us🔗 </h3>
+      <div class="social-icons">
+  <a href="https://wa.me/917206729034" target="_blank" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/navjot-kaur-7a2374355" target="_blank" aria-label="LinkedIn">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+</div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 NotesNest. All rights reserved.</p>
+     <p>Made with ❤ by Navjot Kaur Pandha</p>
+
+  </div>
+</footer>
+
+  
+
+
+    
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+</body>
+</html>
